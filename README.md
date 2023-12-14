@@ -22,4 +22,4 @@
 
 ## License
 
-To be determined.
+MIT
