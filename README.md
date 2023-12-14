@@ -1,6 +1,6 @@
 # filehandy
 
-`filehandy` is a Python library that offers a set of tools to make file input and output operations more accessible and efficient. 
+`filehandy` is a Python library that offers a set of tools to make file input and output operations more accessible and convenient.
 
 ## Features (in progress)
 
