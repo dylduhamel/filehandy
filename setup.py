@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="filehandy",
-    version="0.0.1",
+    version="0.0.1a1",
     author="Dylan Duhamel",
     author_email="duhadm19@alumni.wfu.edu",
     description="filehandy is a Python library that offers a set of tools to make file input and output operations more accessible and efficient.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/dylduhamel/filehandy",
-    license="MIT"
+    license="MIT",
     packages=setuptools.find_packages(),
     install_requires=[
         # Common dependencies here
