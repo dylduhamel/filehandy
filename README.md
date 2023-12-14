@@ -6,14 +6,14 @@
 
 - **Multi-Format Support**: Seamlessly read and write various file formats, including text, CSV, and JSON.
 - **Regex Search & Replace**: Utilize powerful regex expressions for searching and manipulating file contents.
-- **Automatic Encoding Detection**: Handle file encoding gracefully with automatic detection for reading and writing files.
+- **Automatic Encoding Detection**: Handle file encoding with automatic detection for reading and writing files.
 - **Streaming Large Files**: Work with large files efficiently through streaming operations, minimizing memory usage.
 - **File Metadata Handling**: Access and modify file metadata easily.
 - **Integrated File Compression/Decompression**: Simplify working with compressed files with built-in compression and decompression functions.
 
 ## Installation
 
-> Note: `filehandy` is currently in active development, and installation instructions will be provided upon the first stable release.
+> Note: `filehandy` is currently in development. Installation instructions will be provided in the future.
 
 
 ## Contributing
