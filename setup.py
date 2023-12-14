@@ -11,8 +11,12 @@ setuptools.setup(
     description="filehandy is a Python library that offers a set of tools to make file input and output operations more accessible and efficient.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="<LINK_TO_YOUR_CODE_OR_PRODUCT>",
+    url="https://github.com/dylduhamel/filehandy",
     packages=setuptools.find_packages(),
+    install_requires=[
+        # Common dependencies here
+        'pywin32; platform_system=="Windows"'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

@@ -2,7 +2,7 @@ import os
 import json
 import csv
 
-def read_lines(filepath: str) -> list[str]:
+def read_lines(filepath: str, strip: bool=False) -> list[str]:
     """
     Reads lines from a file and returns them as a list of strings.
     The file type is determined by the file extension.
@@ -22,7 +22,7 @@ def read_lines(filepath: str) -> list[str]:
 
     if file_type == 'text':
         with open(filepath, 'r') as file:
-            lines = file.readlines()
+            lines = [line.strip() for line in file.readlines()] if strip else file.readlines() 
 
     elif file_type == 'csv':
         with open(filepath, 'r') as file:
