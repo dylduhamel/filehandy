@@ -16,10 +16,10 @@ def read_lines(filepath: str, strip: bool=False) -> list[str]:
         '.csv': 'csv',
     }
 
-    file_type = file_type_to_extension.get(file_extension, 'text')
+    file_type = file_type_to_extension.get(file_extension)
 
     lines = []
-
+    
     if file_type == 'text':
         with open(filepath, 'r') as file:
             lines = [line.strip() for line in file.readlines()] if strip else file.readlines() 

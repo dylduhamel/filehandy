@@ -1,1 +1,2 @@
 python_magic==0.4.27
+pytest==7.4.3
